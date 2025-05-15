@@ -1,7 +1,0 @@
-C:\Users\Nayla Farah Nida\CSUI\Sem4\Adpro\tutorial-adpro-9-subscriber\subscriber\target\debug\deps\libidna_adapter-684c469237fc0fba.rmeta: C:\Users\Nayla\ Farah\ Nida\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\idna_adapter-1.2.1\src\lib.rs
-
-C:\Users\Nayla Farah Nida\CSUI\Sem4\Adpro\tutorial-adpro-9-subscriber\subscriber\target\debug\deps\libidna_adapter-684c469237fc0fba.rlib: C:\Users\Nayla\ Farah\ Nida\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\idna_adapter-1.2.1\src\lib.rs
-
-C:\Users\Nayla Farah Nida\CSUI\Sem4\Adpro\tutorial-adpro-9-subscriber\subscriber\target\debug\deps\idna_adapter-684c469237fc0fba.d: C:\Users\Nayla\ Farah\ Nida\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\idna_adapter-1.2.1\src\lib.rs
-
-C:\Users\Nayla\ Farah\ Nida\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\idna_adapter-1.2.1\src\lib.rs:
