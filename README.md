@@ -18,3 +18,7 @@ b. What does it mean? ```guest:guest@localhost:5672```, what is the first guest,
 
 The string ```guest:guest@localhost:5672``` is a connection URI used to connect to an AMQP server following the format ```protocol://username:password@hostname:port```.
 So in short, the string is for connecting to an AMQP server running on the computer, using the username guest and password guest, through the AMQP port 5672.
+
+**Simulation slow subscriber**
+
+![Simulate slow subscriber](image_1.png)
