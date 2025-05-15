@@ -21,4 +21,7 @@ So in short, the string is for connecting to an AMQP server running on the compu
 
 **Simulation slow subscriber**
 
+Number of messages in the queue is above 20 because messages are published faster than they are consumed, it decreases as the subscriber slowly processes the messages.
+Each cargo run in the publisher sends 5 messages quickly to RabbitMQ. But the subscriber is slow, taking time to process each message because of the sleep, so RabbitMQ starts queuing messages that the subscriber hasn’t picked up yet.
+
 ![Simulate slow subscriber](image_1.png)
