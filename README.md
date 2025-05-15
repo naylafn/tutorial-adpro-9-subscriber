@@ -25,3 +25,10 @@ Number of messages in the queue is above 20 because messages are published faste
 Each cargo run in the publisher sends 5 messages quickly to RabbitMQ. But the subscriber is slow, taking time to process each message because of the sleep, so RabbitMQ starts queuing messages that the subscriber hasn’t picked up yet.
 
 ![Simulate slow subscriber](image_1.png)
+
+**“Reflection and Running at least three subscribers**
+
+When I run three subscriber instances, I create three consumers competing to receive messages from the same queue. This is called a competing consumer pattern in messaging systems like RabbitMQ.
+Publisher sends messages into a single queue (user_created), then RabbitMQ distributes those messages across the 3 subscribers. Each subscriber gets roughly 1/3 of the messages (round-robin by default). All 3 subscribers process messages in parallel. Because of this parallel processing, the queue empties more quickly.
+
+![Running 3 subscribers](image_2.png)
